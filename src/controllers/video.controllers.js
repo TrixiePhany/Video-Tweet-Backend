@@ -213,7 +213,6 @@ const updateVideo = asyncHandler(async (req, res) => {
 
 const deleteVideo = asyncHandler(async (req, res) => {
     const { videoId } = req.params
-    //TODO: delete video
     if (!mongoose.isValidObjectId(videoId)) {
     throw new ApiError(400, "Invalid videoId");
     }
