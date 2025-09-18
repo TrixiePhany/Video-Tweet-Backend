@@ -2,7 +2,7 @@
 
 ## 📊 Database Flow Overview
 
-This system is built around a social video platform with users, videos, subscriptions, playlists, likes, and comments. It is built around pure javacript, alongside MongoDB as it's database and Mongoose as it's ORM. You can also upload image files  usint the middleware _CLoudinary_ . An ER-Diagram is attached for one to grasp how the Schemas are defined and connected with each other at the end of this documentation. Here’s how the pieces connect:
+This system is built around a social video platform with users, videos, subscriptions, playlists, likes, and comments. It is built around pure javacript, alongside MongoDB as it's database and Mongoose as it's ORM. You can also upload image files  using the middleware _CLoudinary_ . An ER-Diagram is attached for one to grasp how the Schemas are defined and connected with each other at the end of this documentation. Here’s how the pieces connect:
 
 ### Users
 - Every person in the system is a User.
